@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron';
+    font-size: 16px;
+}
+body {
+    background-color: #2b2823;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Comic Sans MS", "Comic Sans",  sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 5vw;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+    margin-right: 50px;
+}
+.nav-list > li > a{
+    color: #c8bfb1;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.nav-list > li:first-child > a{
+    color: #ffffff;
+    font-weight: 600;
+}
+.nav-list > li > a:hover{
+    color: #ffffff;
+    font-weight: 600;
+}
+.nav-btn{
+    font-size: 1.3rem;
+    color: #a18f37;
+    border:2px solid #a18f37;
+    background: transparent;
+    padding: 10px 26px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    background-color: #a18f37;
+    color: #ffffff;
+}
+
+.hero-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 5vw;
+    margin: 10vh 0;
+    text-align: left;
+}
+.hero-header > h1{
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-header > p{
+    width: 40vw;
+    padding: 0 5vw;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 1.5rem;
+    color: #c8bfb1;
+}
+.hero-img{
+    margin-top: 10vh;
+    background-image: url('./assets/pexels-ekaterina-bolovtsova-6077326.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+.hero-bottom{
+    display: flex;
+    justify-content: flex-end;
+}
+.left-btn, .right-btn{
+    height: 80px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.left-btn{
+    background-color: #39362c;
+    color: #a18f37;
+}
+.left-btn>i{
+    font-size: 1.0rem;
+    border: 2px solid #988834;
+    padding: 1.0rem;
+    border-radius: 50%;
+}
+.right-btn{
+    background-color: #a18f37;
+    color: #ffffff;
+}
+.right-btn>i{
+    font-size: 1.0rem;
+    border: 2px solid #ffffff;
+    padding: 1.0rem;
+    border-radius: 50%;
+}
